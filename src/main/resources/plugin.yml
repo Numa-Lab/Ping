@@ -1,0 +1,10 @@
+name: Ping
+version: '${project.version}'
+main: com.kamesuta.ping.Ping
+api-version: 1.16
+authors: [ Kamesuta ]
+
+permissions:
+  ping:
+    description: "Allows the player to ping location."
+    default: op
